@@ -2,6 +2,7 @@ const User = require("../models/user");
 const { setUser } = require("../service/auth");
 const { v4: uuidv4 } = require("uuid");
 
+//Adding comment to test git fork
 const handleUserSignUp = async (req, res) => {
   const { name, email, password } = req.body;
 
